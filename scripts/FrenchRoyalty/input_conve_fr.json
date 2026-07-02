@@ -1,0 +1,21 @@
+{
+  "dataset": "FR_Reduced_2K",
+  "embedding_model": "ConvE",
+  "predictions": "FR_100.csv",
+  "rules_file": "fr_reduced_2k_rules_optimai.csv",
+  "editorial_rules": "FR_editorial_rules.csv",
+  "dimension": 200,
+  "batch_size": 128,
+  "max_epochs": 60,
+  "verify_epochs": 10,
+  "learning_rate": 0.003,
+  "v_learning_rate": 0.003,
+  "input_dropout": 0.2,
+  "hidden_dropout": 0.3,
+  "feature_map_dropout": 0.2,
+  "decay_rate": 0.995,
+  "thr": 0.7,
+  "coverage": 3,
+  "mode": "sufficient",
+  "builders": ["Kelpie", "Kelpie_rules" ,"pca", "frequency"]
+}

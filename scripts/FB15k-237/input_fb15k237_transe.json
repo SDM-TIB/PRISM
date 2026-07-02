@@ -1,0 +1,14 @@
+{
+  "dataset": "FB15k-237",
+  "embedding_model": "TransE",
+  "predictions": "fb15k237_random.csv",
+  "builder": "pca",
+  "rules_file": "FreeBase.csv",
+  "dimension": 50,
+  "verify_epochs": 10,
+  "max_epochs": 100,
+  "learning_rate": 0.0004,
+  "exp_id": "_transE100",
+  "mode": "sufficient",
+  "pca_threshold": 0.3
+}

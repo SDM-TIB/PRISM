@@ -1,0 +1,9 @@
+{
+  "dataset": "YAGO3-10",
+  "embedding_model": "TransE",
+  "predictions": "yago_random.csv",
+  "rules_file": "yago3-10_optimai.csv",
+  "dimension": 100,
+  "thr": 0.7,
+  "mode": "sufficient"
+}

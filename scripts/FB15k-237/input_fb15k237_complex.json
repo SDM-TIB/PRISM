@@ -1,0 +1,17 @@
+{
+  "dataset": "FB15k-237",
+  "embedding_model": "ComplEx",
+  "predictions": "fb15k237_random.csv",
+  "rules_file": "FreeBase.csv",
+  "dimension": 1000,
+  "verify_epochs": 10,
+  "max_epochs": 50,
+  "learning_rate": 0.1,
+  "batch_size": 1024,
+  "optimizer": "Adagrad",
+  "reg": "5e-2",
+  "exp_id": "_complEx100",
+  "pca_threshold": 0.0,
+  "mode": "sufficient",
+  "builders": ["Kelpie"]
+}

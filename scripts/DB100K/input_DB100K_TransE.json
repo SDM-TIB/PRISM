@@ -1,0 +1,17 @@
+{
+  "dataset": "DB100K",
+  "embedding_model": "TransE",
+  "predictions": "db100k_random.csv",
+  "rules_file": "DB100K.csv",
+  "dimension": 200,
+  "verify_epochs": 10,
+  "max_epochs": 100,
+  "learning_rate": 0.0004,
+  "batch_size": 2048,
+  "negative_samples_ratio": 15,
+  "regularizer_weight": 1.0,
+  "exp_id": "_transE_100",
+  "pca_threshold": 0.2,
+  "mode": "sufficient",
+  "builders": ["Kelpie","kelpie_rules", "pca", "frequency"]
+}

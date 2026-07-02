@@ -1,0 +1,18 @@
+{
+  "dataset": "FR_Reduced_2K",
+  "embedding_model": "ComplEx",
+  "predictions": "FR_100.csv",
+  "rules_file": "fr_reduced_2k_rules_optimai.csv",
+  "editorial_rules": "FR_editorial_rules.csv",
+  "dimension": 1000,
+  "batch_size": 1000,
+  "learning_rate": 0.1,
+  "v_learning_rate": 0.1,
+  "max_epochs": 100,
+  "verify_epochs": 10,
+  "thr": 0.7,
+  "coverage": 3,
+  "mode": "sufficient",
+  "reg": "5e-3",
+  "builders": ["kelpie_rules"]
+}

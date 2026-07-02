@@ -1,0 +1,14 @@
+{
+  "dataset": "YAGO3-10",
+  "embedding_model": "ComplEx",
+  "predictions": "yago_random.csv",
+  "dimension": 1000,
+  "batch_size": 128,
+  "e_learning_rate": 0.1,
+  "v_learning_rate": 0.1,
+  "e_epochs": 50,
+  "v_epochs": 10,
+  "thr": 0.7,
+  "coverage": 3,
+  "mode": "sufficient"
+}

@@ -1,0 +1,21 @@
+{
+  "dataset": "FR_Reduced_2K",
+  "embedding_model": "TransE",
+  "predictions": "FR_100.csv",
+  "rules_file": "fr_reduced_2k_rules_optimai.csv",
+  "editorial_rules": "FR_editorial_rules.csv",
+  "dimension": 200,
+  "batch_size": 1906,
+  "negative_samples_ratio": 5,
+  "e_regularizer_weight": 50.0,
+  "v_regularizer_weight": 2.0,
+  "margin": 2,
+  "e_learning_rate": 0.003,
+  "v_learning_rate": 0.00003,
+  "e_epochs": 100,
+  "v_epochs": 10,
+  "thr": 0.7,
+  "coverage": 3,
+  "mode": "sufficient",
+  "builders": ["kelpie", "Kelpie_rules", "pca", "frequency"]
+}

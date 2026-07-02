@@ -1,0 +1,16 @@
+{
+  "dataset": "DB100K",
+  "embedding_model": "ComplEx",
+  "predictions": "db100k_random.csv",
+  "rules_file": "DB100K.csv",
+  "dimension": 80,
+  "verify_epochs": 10,
+  "max_epochs": 50,
+  "learning_rate": 0.1,
+  "batch_size": 12,
+  "optimizer": "Adagrad",
+  "reg": "5e-3",
+  "mode": "sufficient",
+  "pca": 0.2,
+  "builders": ["Kelpie","kelpie_rules", "frequency", "pca"]
+}

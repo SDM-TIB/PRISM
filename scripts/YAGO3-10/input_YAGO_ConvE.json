@@ -1,0 +1,19 @@
+{
+  "dataset": "YAGO3-10",
+  "embedding_model": "ConvE",
+  "predictions": "yago_random.csv",
+  "builder": "frequency",
+  "dimension": 200,
+  "batch_size": 2048,
+  "input_dropout": 0.2,
+  "hidden_dropout": 0.3,
+  "feature_map_dropout": 0.2,
+  "decay_rate": 0.995,
+  "e_learning_rate": 0.003,
+  "v_learning_rate": 0.003,
+  "e_epochs": 100,
+  "v_epochs": 10,
+  "thr": 0.7,
+  "coverage": 3,
+  "mode": "sufficient"
+}
