@@ -1,0 +1,1 @@
+This folder contains the statistics file generated based on the execution of explantion scripts, e.g., transe-fr-script.py. This statistics file include information regarding the model, builder name, and metrics related to performance (combinations and time) and accuracy (original score, new score, original rank and new rank)
