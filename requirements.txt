@@ -1,0 +1,9 @@
+tqdm
+ipykernel
+rdflib
+pandas
+pandasql
+SQLAlchemy
+torch
+numpy
+duckdb
