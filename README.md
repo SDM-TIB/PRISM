@@ -32,9 +32,6 @@ Below is an example of how PRISM explains a missing link prediction in a KG:
 
 The figure illustrates how PRISM uses symbolic rules, KG structure, and embedding-based relevance signals to generate necessary and sufficient explanations for a predicted missing relationship.
 
-> If the repository still contains the original SPLAIN figure file, rename it from `images/SPLAIN-Example-necessary-sufficient.png` to `images/PRISM-Example-necessary-sufficient.png`, or update the path above accordingly.
-
----
 
 ## 🧾 Repository Structure
 
