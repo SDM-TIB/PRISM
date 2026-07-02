@@ -8,7 +8,7 @@ module load cuda/11.8
 source "$(conda info --base)/etc/profile.d/conda.sh"
 
 # Create a minimal environment with Python first
-ENV_PREFIX="/mnt/SPLAIN/cenv"
+ENV_PREFIX="/mnt/PRISM/cenv"
 echo "Creating minimal environment with Python 3.10.15..."
 conda create -p $ENV_PREFIX python=3.10.15 pip -y
 
