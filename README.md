@@ -1,4 +1,4 @@
-# PRISM: Neuro-Symbolic Explanations for Link Prediction over Knowledge Graphs 🧠🔍
+# PRISM: Path-guided Reasoning and Interpretation for Semantic Models 🧠🔍
 
 ## Overview
 
