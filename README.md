@@ -1,5 +1,5 @@
 # PRISM: Path-guided Reasoning and Interpretation for Semantic Models 🧠🔍
-
+![PRISM](https://raw.githubusercontent.com/SDM-TIB/PRISM/main/images/GraphicalAbstract.png "PRISM")
 ## Overview
 
 **PRISM** is a neuro-symbolic explanation framework for **Link Prediction (LP)** over **Knowledge Graphs (KGs)**. It explains why a Knowledge Graph Completion (KGC) model predicts a missing fact by identifying the facts that are most relevant to the prediction.
