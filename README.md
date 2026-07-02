@@ -1,3 +1,4 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 # PRISM: Path-guided Reasoning and Interpretation for Semantic Models 🧠🔍
 ![PRISM](https://raw.githubusercontent.com/SDM-TIB/PRISM/main/images/GraphicalAbstract.png "PRISM")
 ## Overview
